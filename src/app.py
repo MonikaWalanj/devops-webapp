@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def home()
+def home():
 
     return "Hello from Devops Project! I am Monika testing ci and cd code on github with docker"
 
